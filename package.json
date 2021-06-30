@@ -4,12 +4,16 @@
   "description": "",
   "main": "servidor.js",
   "scripts": {
-    "test": "node servidor.js"
+    "test": "nodemon servidor.js"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
     "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "morgan": "^1.10.0",
+    "nodemon": "^2.0.9"
   }
 }
