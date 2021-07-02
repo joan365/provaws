@@ -14,5 +14,6 @@ const home = require('./rutes/home')
 app.use('/',home)
 
 //Activem el servidor
+//Inicar des de linia de comanaments amb: npm test
 app.listen(app.get('port'), app.get('host'), () => 
   console.log('Servdor en marxa a ', app.get('host'), ':', app.get('port')))
