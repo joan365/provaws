@@ -4,7 +4,7 @@ const morgan = require('morgan')
 
 app.set('port', 3000)
 app.set('host', 'localhost')
-//app.use(express.static('public')) //Per defecte serveix el index.html per la ruta /
+app.use(express.static('public')) 
 
 //middelwares
 app.use(morgan('dev'))

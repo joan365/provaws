@@ -1,5 +1,5 @@
 // Procés guardar valors
-function eguardar(){
+function guardar(){
   alert("A punt de guardar valors");
   //alert(JSON.stringify(objJson));
 };
