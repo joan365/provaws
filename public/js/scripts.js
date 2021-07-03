@@ -1,9 +1,10 @@
-// Procés guardar valors
+// Procés guardar valors en un tag html
 function guardar(){
   alert("A punt de guardar valors");
   //alert(JSON.stringify(objJson));
 };
 
+//Proces per recuperar valors d'un tag html
 function recupera(){
   alert("A punt de recuperar valors");
   //alert(JSON.stringify(objJson));
