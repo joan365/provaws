@@ -4,6 +4,7 @@
     
     document.getElementById("guardar").addEventListener("click", guardar);
     document.getElementById("recupera").addEventListener("click", recupera);
+    document.getElementById("formulari").addEventListener("click", mostraform);
 
 
 

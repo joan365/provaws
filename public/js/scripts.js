@@ -10,6 +10,11 @@ function recupera(){
   //alert(JSON.stringify(objJson));
 };
 
+
+function mostraform(){
+  alert("Mostrar formmulari");
+};
+
 /*
 function pintar_msg(data){
   var text_a_pintar = "";
