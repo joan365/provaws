@@ -3,6 +3,7 @@
 // el script s'executa quan finalitzi el parsing del HTML
     
     document.getElementById("guardar").addEventListener("click", guardar);
+    document.getElementById("recupera").addEventListener("click", recupera);
 
 
 

@@ -4,6 +4,11 @@ function guardar(){
   //alert(JSON.stringify(objJson));
 };
 
+function recupera(){
+  alert("A punt de recuperar valors");
+  //alert(JSON.stringify(objJson));
+};
+
 /*
 function pintar_msg(data){
   var text_a_pintar = "";
