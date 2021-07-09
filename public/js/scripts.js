@@ -1,18 +1,47 @@
+// Recuperar dades del servidor
+function getDadesServer(url){
+  $.get( url ).done( function( data ) {
+    console.log( url );
+    console.log( data );
+    alert ("Username1: " + data.username + "\nCognom1: " + data.cognome  + "\nMissatge1: " + data.msg );
+    return JSON.stringify(data);
+  });
+};
+
+
+
+
+
+
+
+
 // Procés guardar valors en un tag html
 function guardar(){
   alert("A punt de guardar valors");
-  //alert(JSON.stringify(objJson));
+  $.getJSON('/enviar', function(objJson) {
+    //do something with the JSON here.
+    console.log(objJson);
+    alert ("Username: " + objJson.username + "\nCognom: " + objJson.cognome  + "\nMissatge: " + objJson.msg );
+    $("#missatges").html("<p>" + objJson.msg + "</p>");
+  });
 };
 
 //Proces per recuperar valors d'un tag html
 function recupera(){
   alert("A punt de recuperar valors");
+
   //alert(JSON.stringify(objJson));
 };
 
 
 function mostraform(){
   alert("Mostrar formmulari");
+};
+
+
+
+function pintamsg(dades){
+  var msg = document.getElementById("msg");
 };
 
 /*
