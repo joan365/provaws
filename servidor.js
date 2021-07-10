@@ -14,6 +14,8 @@ const home = require('./rutes/home')
 app.use('/',home)
 const transaccions = require('./rutes/transaccions')
 app.use('/',transaccions)
+const editors = require('./rutes/editors')
+app.use('/',editors)
 
 
 //Activem el servidor
