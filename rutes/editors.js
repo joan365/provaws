@@ -12,5 +12,9 @@ rutes_editors.get('/redactor', (req, res)  => {
     res.sendFile(path.resolve('public/redactor/index.html'))
 })
 
+rutes_editors.get('/contentools', (req, res)  => {
+    res.sendFile(path.resolve('public/contentools/index.html'))
+})
+
 
 module.exports = rutes_editors
